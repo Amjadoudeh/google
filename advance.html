@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Google-Advanced-Search</title>
+
+</head>
+<header>
+    <div class="ad-logo">
+        <img src="./google-logo.png" alt="google" class="ad-img">
+    </div>
+    <!-- the navbar -->
+    <nav class="main-nav">
+    <a href="./index.html">Google Search</a>
+    <a href="./images.html">Google Images</a>
+    </nav>
+</header>
+<body>
+    <!-- using bootstrap classes to style the table -->
+    <h1>Advanced Search</h1>
+    <hr>
+    <div id="adiv2">
+        <h5 >Find pages with...</h5>
+        <form action="https://google.com/search">
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">all these words:</label>
+                <div class="col-sm-5">
+                    <input class="form-control form-control-sm" autofocus="autofocus" name="as_q" type="text">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">this exact word or pharse:</label>
+                <div class="col-sm-5">
+                    <input class="form-control form-control-sm" name="as_epq" type="text">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">any of these words:</label>
+                <div class="col-sm-5">
+                    <input class="form-control form-control-sm" name="as_oq" type="text">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">none of these words:</label>
+                <div class="col-sm-5">
+                    <input class="form-control form-control-sm" name="as_eq" type="text">
+                </div>
+            </div>
+                <input type="submit" class="btn btn-primary" data-toggle="button" id="adbtn" value="Advanced Search">
+            
+        </form>
+    </div>
+    
+</body>
+<footer>
+    <!-- bilding the footer as in the orginal website -->
+    <div class="main-footer">
+        <div class="right-footer">
+            <a href="#">About</a>
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">How Search works</a>
+        </div>
+        <div class="left-footer">
+            <a href="#">Consumer Information</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+</footer>
+</html>
